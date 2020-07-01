@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="indexForm.css">
+    <script src="indexForm.js"></script>
+</head>
+<body>
+
+    <form name="Form" id="Form">
+        <label for="fname"></label><input type="text" id="fname" name="First Name" required placeholder="Your first name..">
+        <label for="lname"></label><input type="text" id="lname" name="Last Name" required placeholder="Your last name..">
+        <label>
+            <select id="country" name="country" title="Country">
+                <option name="Jordan" value="Jordan">Jordan &#128151;</option>
+                <option name="USA" value="USA">USA</option>
+            </select>
+        </label>
+        <label for="Skills"></label><textarea id="Skills" name="Skills" maxlength="500" rows="10" required placeholder="Type your skills.."></textarea>
+        <input name="Submit" type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
